@@ -5,3 +5,7 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   plugins: [vue()]
 })
+module.exports = defineConfig({
+  transpileDependencies: true,
+  publicPath:'/summersali/'
+})
